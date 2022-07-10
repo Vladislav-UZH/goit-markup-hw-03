@@ -11,6 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./styles-css/style.css" />
   </head>
   <body>
@@ -49,13 +56,14 @@
     </header>
 
     <main>
-      <!-- Наши преимущества -->
+      <!-- Сервис бизнес возможностей -->
       <section class="business-service-section">
         <div class="container">
           <h1 class="business-service-headline">Эффективные решения для вашего бизнеса</h1>
           <button class="business-service-button" type="button">Заказать услугу</button>
         </div>
       </section>
+      <!-- Наши преимущества -->
       <section class="strengths-group-section">
         <div class="container">
           <ul class="strengths-group-list">
@@ -126,7 +134,7 @@
         <div class="container">
           <h2 class="teammates-section-headline">Наша команда</h2>
           <ul class="teammates-list">
-            <li>
+            <li class="teammates-item">
               <img
                 class="teammates-img"
                 width="270"
@@ -134,11 +142,12 @@
                 src="./photo/img-0.jpg"
                 alt="Участник команды, мужчина"
               />
-
-              <h3 class="teammates-headline-name">Игорь Демьяненко</h3>
-              <p class="teammates-text" lang="en">Product Designer</p>
+              <div class="teammates-card-decription">
+                <h3 class="teammates-headline-name">Игорь Демьяненко</h3>
+                <p class="teammates-text" lang="en">Product Designer</p>
+              </div>
             </li>
-            <li>
+            <li class="teammates-item">
               <img
                 class="teammates-img"
                 width="270"
@@ -146,11 +155,12 @@
                 src="./photo/img-1.jpg"
                 alt="Участник команды, женщина"
               />
-
-              <h3 class="teammates-headline-name">Ольга Репина</h3>
-              <p class="teammates-text" lang="en">Frontend Developer</p>
+              <div class="teammates-card-decription">
+                <h3 class="teammates-headline-name">Ольга Репина</h3>
+                <p class="teammates-text" lang="en">Frontend Developer</p>
+              </div>
             </li>
-            <li>
+            <li class="teammates-item">
               <img
                 class="teammates-img"
                 width="270"
@@ -158,10 +168,12 @@
                 src="./photo/img-2.jpg"
                 alt="Участник команды, мужчина"
               />
-              <h3 class="teammates-headline-name">Николай Тарасов</h3>
-              <p class="teammates-text" lang="en">Marketing</p>
+              <div class="teammates-card-decription">
+                <h3 class="teammates-headline-name">Николай Тарасов</h3>
+                <p class="teammates-text" lang="en">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="teammates-item">
               <img
                 class="teammates-img"
                 width="270"
@@ -169,8 +181,10 @@
                 src="./photo/img-3.jpg"
                 alt="Участник команды, мужчина"
               />
-              <h3 class="teammates-headline-name">Михаил Ермаков</h3>
-              <p class="teammates-text" lang="en">UI Designer</p>
+              <div class="teammates-card-decription">
+                <h3 class="teammates-headline-name">Михаил Ермаков</h3>
+                <p class="teammates-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>

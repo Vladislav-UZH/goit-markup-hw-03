@@ -26,9 +26,19 @@
 body {
   font-family: var(--main-font);
 }
-h1,h2,h3,h4,h5,h6,p,ul{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   margin: 0;
   padding: 0;
+}
+img {
+  display: block;
 }
 ul {
   list-style: none;
@@ -38,8 +48,8 @@ a {
   color: inherit;
 }
 
-.container{
-  width: 1170px;
+.container {
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -49,8 +59,9 @@ a {
 
 .header {
   background-color: var(--nav-bg-color);
-border-bottom: 1px solid #ECECEC;}
-.header-container{
+  border-bottom: 1px solid #ececec;
+}
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -81,26 +92,24 @@ border-bottom: 1px solid #ECECEC;}
   color: var(--link-hover-text-color);
 }
 
-
 .navigation-menu-list {
   margin-left: 93px;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
- 
 }
-.navigation-contacts-list,.navigation-menu-list{
-display: flex;
+.navigation-contacts-list,
+.navigation-menu-list {
+  display: flex;
   gap: 50px;
   margin-left: auto;
 }
 
-.navigation-menu-link{
+.navigation-menu-link {
   display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-   
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .navigation-contacts-list {
   margin-left: 330px;
@@ -109,12 +118,10 @@ display: flex;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  
 }
-.navigation-contacts-link{
-  padding:32px 0 ;
+.navigation-contacts-link {
+  padding: 32px 0;
 }
-
 
 /* main */
 .business-service-section {
@@ -124,7 +131,7 @@ display: flex;
 .business-service-headline {
   margin-bottom: 30px;
   width: 696px;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -156,12 +163,12 @@ display: flex;
 }
 
 /* Strengths-section */
-.strengths-group-list{
- display: flex;
- gap: 30px;
+.strengths-group-list {
+  display: flex;
+  gap: 30px;
+  padding: 94px 0;
 }
 .strengths-group-headline {
-  padding-top: 94px;
   margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -178,29 +185,53 @@ display: flex;
 }
 
 /* task section */
-
+.task-section {
+  padding-bottom: 94px;
+}
 .task-section-headline {
+  margin: 0 auto 50px auto;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--headline-text-color);
 }
-
+.task-section-list {
+  display: flex;
+  gap: 30px;
+}
 /* Our team */
 
 .teammates-section {
   background-color: var(--teammates-section-bg-color);
+  padding: 94px 0 94px 0;
 }
 .teammates-section-headline {
+  margin-bottom: 50px;
   color: var(--headline-text-color);
-
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
 }
+.teammates-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.teammates-item{
+  flex-basis: calc((100% - 30px * 7) / 8);
+}
+.teammates-card-decription {
+  padding:30px;
+  background-color: var(--nav-bg-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
 .teammates-headline-name {
+  margin-bottom: 10px;
   font-size: 16px;
   font-weight: 500;
   line-height: calc(19 / 16);
@@ -221,6 +252,8 @@ display: flex;
 
 /* footer */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--section-footer-bg-color);
 }
 .footer-logo-link {
@@ -239,11 +272,11 @@ display: flex;
 }
 
 .footer-info {
+    margin-top: 17px;
   font-style: normal;
 }
 .footer-adress-location {
   color: var(--nav-bg-color);
-
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -251,6 +284,13 @@ display: flex;
 
   letter-spacing: 0.03em;
 }
+.footer-contacts-list{
+  margin-top:9px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
 .footer-contacts-link {
   color: var(--footer-address-text-color);
   font-size: 14px;
@@ -279,7 +319,6 @@ display: flex;
   line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  
 }
 
 .main-section-button:hover,
