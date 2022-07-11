@@ -50,6 +50,9 @@ a {
   color: inherit;
 }
 
+.section{
+padding: 94px;
+}
 .container {
   width: 1200px;
   margin-left: auto;
@@ -168,7 +171,6 @@ a {
 .strengths-group-list {
   display: flex;
   gap: 30px;
-  padding: 94px 0;
 }
 .strengths-group-headline {
   margin-bottom: 10px;
@@ -188,7 +190,7 @@ a {
 
 /* task section */
 .task-section {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 .task-section-headline {
   margin: 0 auto 50px auto;
