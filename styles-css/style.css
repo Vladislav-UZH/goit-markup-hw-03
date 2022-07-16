@@ -51,7 +51,7 @@ a {
 }
 
 .section{
-padding: 94px;
+padding: 94px 0;
 }
 .container {
   width: 1200px;
@@ -117,7 +117,7 @@ padding: 94px;
   padding-bottom: 32px;
 }
 .navigation-contacts-list {
-  margin-left: 330px;
+  margin-left: auto;
   font-weight: 500;
   color: #757575;
   font-size: 14px;
@@ -292,7 +292,6 @@ padding: 94px;
   margin-top: 9px;
   display: flex;
   flex-direction: column;
-  gap: 9px;
 }
 
 .footer-contacts-link {
@@ -306,6 +305,10 @@ padding: 94px;
 .footer-contacts-link:focus {
   color: var(--footer-address-hover);
 }
+.footer-mail-link{
+  margin-bottom: 9px;
+}
+
 /* /////////////////////////////////////////////////////////////////////////// */
 /* ---portfolio.html--- */
 /* portfolio-image */
@@ -363,7 +366,6 @@ padding: 94px;
   background-color: var(--footer-address-hover);
   border: 1px solid #EEEEEE;
   border-top:none ;
-  border-radius: 0px 0px 4px 4px;
 }
 .main-section-headline-description {
   margin-bottom: 4px;
