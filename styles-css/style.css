@@ -181,6 +181,7 @@ a {
   color: var(--headline-text-color);
 }
 .strengths-group-subtext {
+  width: 270px;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
